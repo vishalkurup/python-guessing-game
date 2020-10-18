@@ -5,6 +5,12 @@ import sys
 # generate a number 1~10
 answer = randint(1, 10)
 
+def ask_user_for_guess(self):
+    return int(input('guess a number 1~10:  '))
+
+
+
+
 # input from user?
 # check that input is a number 1~10
 while True:
