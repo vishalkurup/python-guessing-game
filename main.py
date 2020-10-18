@@ -8,6 +8,17 @@ answer = randint(1, 10)
 def ask_user_for_guess(self):
     return int(input('guess a number 1~10:  '))
 
+def validate_user_guess(self, guess):
+   if 0 < guess < 11:
+       return True
+   else:
+       return False
+
+def check_user_guess(self, guess, answer):
+    if guess == answer:
+        return True
+    else:
+        return False
 
 
 
