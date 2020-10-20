@@ -1,26 +1,8 @@
 # Andrei's Python Guessing game code
 from random import randint
 import sys
-
 # generate a number 1~10
 answer = randint(1, 10)
-
-def ask_user_for_guess(self):
-    return int(input('guess a number 1~10:  '))
-
-def validate_user_guess(self, guess):
-   if 0 < guess < 11:
-       return True
-   else:
-       return False
-
-def check_user_guess(self, guess, answer):
-    if guess == answer:
-        return True
-    else:
-        return False
-
-
 
 # input from user?
 # check that input is a number 1~10
